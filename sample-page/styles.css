@@ -1,0 +1,129 @@
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --a1: rgb(79, 130, 186);
+  --a2: rgb(37, 50, 152);
+  --thin-line: rgb(98, 144, 194);
+  --white: #eee;
+  --light-grey: rgb(244, 245, 247);
+  --dark-grey: rgb(217, 222, 244);
+}
+
+html {
+	/* 1 rem = 24px */
+	font-size: 150%;
+	font-family: sans-serif;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/* General Styles */
+
+.background {
+	width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+	width: 992px;  /*768px*/
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Header */
+
+.gradient.header h1 {
+	font-size: 1.5rem;
+	line-height: 2rem;
+	margin: 1rem 0;
+	color: var(--white);
+	font-weight: 400;
+}
+
+.header {
+	border-bottom: 1px solid var(--thin-line);
+}
+
+.links {
+	display: flex;
+	justify-content: flex-end
+}
+
+.link {
+	font-size: .7rem;
+	line-height: 2rem;
+	padding: 1rem;
+	color: var(--white);
+	font-weight: 200;
+}
+
+.link:last-of-type {
+	font-size: .65rem;
+	margin-right: 0;
+	text-transform: uppercase;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+.link.active {
+	border-bottom: 1px solid var(--white);
+}
+
+/* Gradient Section */
+
+.gradient {
+	background-image: linear-gradient(to right, var(--a1), var(--a2));
+}
+
+.gradient p {
+	font-size: .6rem;
+	line-height: 1rem;
+	color: var(--white);
+	margin: 2rem 0;
+	font-weight: 300;
+}
+
+.gradient h1.subtitle {
+	font-size: 1.4rem;
+	line-height: 2rem;
+	margin-bottom: 2rem;
+	margin-top: 4rem;
+	color: var(--white);
+	font-weight: 300;
+}
+	
+.blurb, .logo {
+	width: 50%;
+}
+ 
+.logo {
+	margin: 2rem 0;
+}
+
+.button {
+	margin: 1rem 0;
+	margin-right: 2rem;
+	font-size: .6rem;
+	line-height: 2rem;
+  color: var(--white);
+  padding: 1rem 1.5rem;
+  border: 1px solid var(--white);
+  border-radius: 1.5rem;
+  text-transform: uppercase;
+}
+
+.button.highlight {
+	background: var(--white);
+	color: var(--a1);
+}
+
+/* Gradient Section */
