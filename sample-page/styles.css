@@ -85,13 +85,13 @@ h2 {
 
 /* Header */
 
-.header.background {
-	padding: 0 0;
+.logo {
+	margin: 1rem 1rem;
+	font-weight: 400;
 }
 
-.header h1 {
-	margin: 1rem 0;
-	font-weight: 400;
+.header.background {
+	padding: 0 0;
 }
 
 .header {
@@ -114,7 +114,7 @@ h2 {
 	font-weight: 200;
 }
 
-.link .highlight {
+.link.highlight {
 	font-size: .65rem;
 	text-transform: uppercase;
 }
@@ -180,11 +180,12 @@ h2 {
 .half {
   flex-grow: 1;
   flex-basis: 0;
+  margin: 0 1rem;
 }
 
 .half img {
-	max-width: 80%;
-	margin: 0 auto;
+	max-width: 100%;
+	margin: 1rem auto;
 	display: block;
 }
 
@@ -201,17 +202,6 @@ h2 {
 .blurb .title {
 	text-align: left;
 	color: var(--off-white);
-}
-
-.logo {
-	margin: 2rem 0;
-}
-
-.logo img {
-	max-width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
 }
 
 /* Benefits */
@@ -231,14 +221,6 @@ h2 {
 
 .box.gradient {
 	border: 1px solid var(--a1);
-}
-
-.box:first-of-type {
-	margin-left: 0;
-}
-
-.box:last-of-type {
-	margin-right: 0;
 }
 
 .box img {
