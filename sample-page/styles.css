@@ -187,11 +187,6 @@ h2 {
 	color: var(--off-white);
 }
 
-.half {
-  flex-grow: 1;
-  flex-basis: 0;
-}
-
 .logo {
 	margin: 2rem 0;
 }
@@ -246,10 +241,3 @@ h2 {
 .case .title {
 	text-align: left;
 }
-
-.half img {
-	max-width: 80%;
-	margin: 0 auto;
-	display: block;
-}
-
