@@ -166,11 +166,27 @@ h2 {
 	color: var(--a1);
 }
 
+.grey .button.highlight {
+	border: 1px solid var(--a1);
+	background-color: var(--a1);
+	color: var(--off-white);
+}
+
 .white .button {
 	border: 1px solid var(--a1);
 	color: var(--a1);
 }
 
+.half {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.half img {
+	max-width: 80%;
+	margin: 0 auto;
+	display: block;
+}
 
 /* Hero */
 
