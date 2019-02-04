@@ -43,10 +43,14 @@ img {
   align-items: flex-start;
 }
 
-p {
+a, p {
 	font-size: .6rem;
 	line-height: 1rem;
 	font-weight: 200;
+}
+
+a {
+	color: var(--a1);
 }
 
 h1 {
@@ -63,13 +67,16 @@ h2 {
 	text-align: center;
 }
 
-.supertitle {
-	text-transform: uppercase;
-	margin-top: 2rem;
-	text-align: center;
+h3 {
 	font-size: .8rem;
 	line-height: 1rem;
-	font-weight: 400;
+	font-weight: 200;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.supertitle {
+	margin-top: 2rem;
 	color: var(--a1)
 }
 
@@ -132,6 +139,10 @@ h2 {
 	color: var(--off-white);
 }
 
+.gradient a {
+	color: var(--off-white);
+}
+
 .button {
 	display: inline-block;
 	margin: 1rem 0;
@@ -154,6 +165,7 @@ h2 {
 }
 
 .white {
+	background-color: white;
 	color: var(--dark-grey);
 }
 
@@ -239,3 +251,42 @@ h2 {
 .case .title {
 	text-align: left;
 }
+
+/* Services */
+.card-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card {
+	flex-basis: calc(50% - 0.5rem);
+	padding: 1rem;
+}
+
+.card h3 {
+	text-align: left;
+}
+
+.card a {
+	text-decoration: none;
+	margin-right: 0.5em;
+}
+
+.card-title {
+	margin-bottom: 0.5rem;
+}
+
+.card-link {
+	margin-top: 0.5rem;
+}
+
+.card a:hover {
+	text-decoration: underline;
+}
+
+.card.white {
+	box-shadow: 2px 5px 18px #888888;
+}
+
