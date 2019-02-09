@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sample</title>
+	<title>Futura</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
 
@@ -45,7 +46,7 @@
 		</div>
 	</div>
 
-	<div class="background white">
+	<div class="background white features">
 		<div class="container">
 			<h3 class="supertitle">Features</h3>
 			<h1 class="title">Benefits of Our Solution</h1>
@@ -87,7 +88,7 @@
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<a class="button">
+				<a class="button-square">
 					Read More
 				</a>
 			</div>
@@ -105,7 +106,7 @@
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<a class="button">
+				<a class="button-square">
 					Read More
 				</a>
 			</div>
@@ -126,36 +127,78 @@
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<a class="button highlight">
+				<a class="button-square">
 					Get Info
 				</a>
 			</div>
 
 			<div class="half card-grid">
 				<div class="card">
+					<i class="fas fa-parking"></i>
 					<h3 class="card-title">Parking</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor</p>
-					<p class="card-link"><a href="">Read More</a> &rarr;</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+					<p class="card-link"><a href="" class="subtle-link">Read More</a> &rarr;</p>
 				</div>
 				<div class="card gradient">
+					<i class="fas fa-home"></i>
 					<h3 class="card-title">Zoning</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor</p>
-					<p class="card-link"><a href="">Read More</a> &rarr;</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+					<p class="card-link"><a href="" class="subtle-link">Read More</a> &rarr;</p>
 				</div>
 				<div class="card white">
+					<i class="fas fa-subway"></i>
 					<h3 class="card-title">Public Transit</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor</p>
-					<p class="card-link"><a href="">Read More</a> &rarr;</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+					<p class="card-link"><a href="" class="subtle-link">Read More</a> &rarr;</p>
 				</div>
 				<div class="card">
+					<i class="fas fa-tint"></i>
 					<h3 class="card-title">Sewage</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor</p>
-					<p class="card-link"><a href="">Read More</a> &rarr;</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+					<p class="card-link"><a href="" class="subtle-link">Read More</a> &rarr;</p>
 				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="background gradient footer">
+		<div class="container flex">
+			<div class="half-left">
+				<form class="contact-form" action="/submit" method="post" accept-charset="utf-8">
+					<div class="contact-container">
+						<label for="name" class="contact-label contact-left">
+							Name
+						</label>
+						<input type="text" id="name" name="name" class="contact-input contact-right"/>
+					</div>
+					<div class="contact-container">
+						<label for="email" class="contact-label contact-left">
+							Email
+						</label>
+						<input type="email" id="email" name="email" class="contact-input contact-right"/>
+					</div>
+					<div class="contact-container">
+						<label for="message" class="contact-label contact-left">
+							<span class="contact-label-bottom">
+								Message
+							</span>
+						</label>
+						<textarea id="message" name="message" class="contact-input contact-right" rows="4"></textarea>
+					</div>
+					<div class="contact-container">
+						<div class="contact-left">
+						</div>
+						<div class="contact-right">
+							<a class="button-square">Send Message</a>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="half-right">
+				<h3 class="supertitle">Contact</h3>
+				<h1 class="title">Drop us a line!</h1>
+				<p class="double-space">We would love to hear what you think of us.</p>
+				<p class="double-space">Or call us at <a href="tel:212-123-4567" class="subtle-link">(212) 123-4567</a></p>
 			</div>
 		</div>
 	</div>
